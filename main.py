@@ -16,8 +16,8 @@ UPI_ID = os.getenv('UPI_ID')
 AMOUNT = int(os.getenv('SUBSCRIPTION_AMOUNT', 49))
 
 app = Client('copy-bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
-SOURCE_CHAT = @MK_DEV_AI_BOT
-TARGET_CHAT = @Link_generator_user_bot
+SOURCE_CHAT = "@MK_DEV_AI_BOT"
+TARGET_CHAT = "@Link_generator_user_bot"
 
 
 async def is_member_of_channel(client, user_id):
